@@ -1,0 +1,1 @@
+The project contains a MILLING file (special PADs for USB connector)
