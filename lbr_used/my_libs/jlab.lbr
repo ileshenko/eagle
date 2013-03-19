@@ -1334,6 +1334,20 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0092.pdf</description>
 <wire x1="-1.219" y1="-1.73" x2="-1.219" y2="2.97" width="0.127" layer="21"/>
 <text x="-2.54" y="-1.27" size="1.27" layer="25" rot="R90">&gt;NAME</text>
 </package>
+<package name="6-PIN-DIL">
+<pad name="2" x="-5.08" y="0" drill="0.9" diameter="1.6764"/>
+<pad name="1" x="-5.08" y="2.54" drill="0.9" diameter="1.6764"/>
+<pad name="3" x="-5.08" y="-2.54" drill="0.9" diameter="1.6764"/>
+<pad name="6" x="5.08" y="2.54" drill="0.9" diameter="1.6764"/>
+<pad name="4" x="5.08" y="-2.54" drill="0.9" diameter="1.6764"/>
+<wire x1="-4.7752" y1="-4.4958" x2="4.7752" y2="-4.4958" width="0.127" layer="21"/>
+<wire x1="4.7752" y1="-4.4958" x2="4.7752" y2="4.4958" width="0.127" layer="21"/>
+<wire x1="4.7752" y1="4.4958" x2="-4.7752" y2="4.4958" width="0.127" layer="21"/>
+<wire x1="-4.7752" y1="4.4958" x2="-4.7752" y2="-4.4958" width="0.127" layer="21"/>
+<text x="-3.81" y="5.08" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="-2.54" y="0" size="1.27" layer="27" font="vector">&gt;VALUE</text>
+<text x="-5.715" y="3.81" size="1.27" layer="21" font="vector">.</text>
+</package>
 </packages>
 <symbols>
 <symbol name="JACK8">
@@ -1616,6 +1630,45 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0092.pdf</description>
 <text x="-2.032" y="1.27" size="1.778" layer="94">Blue</text>
 <text x="-12.7" y="7.62" size="1.778" layer="94">&gt;NAME</text>
 <text x="-12.7" y="-10.16" size="1.778" layer="94">&gt;VALUE</text>
+</symbol>
+<symbol name="HF-TRANSF">
+<wire x1="-2.54" y1="10.16" x2="-2.54" y2="7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="7.62" x2="-2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-5.08" x2="-2.54" y2="-7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="10.16" x2="-7.62" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-7.62" y2="0" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-7.62" x2="-2.54" y2="-10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-10.16" x2="-7.62" y2="-10.16" width="0.254" layer="94"/>
+<circle x="-3.302" y="9.144" radius="0.254" width="0.254" layer="94"/>
+<circle x="-3.302" y="-1.016" radius="0.254" width="0.254" layer="94"/>
+<wire x1="5.08" y1="10.16" x2="5.08" y2="7.62" width="0.254" layer="94" curve="180"/>
+<wire x1="5.08" y1="7.62" x2="5.08" y2="5.08" width="0.254" layer="94" curve="180"/>
+<wire x1="5.08" y1="5.08" x2="5.08" y2="2.54" width="0.254" layer="94" curve="180"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="0" width="0.254" layer="94" curve="180"/>
+<wire x1="5.08" y1="0" x2="5.08" y2="-2.54" width="0.254" layer="94" curve="180"/>
+<wire x1="5.08" y1="-2.54" x2="5.08" y2="-5.08" width="0.254" layer="94" curve="180"/>
+<wire x1="5.08" y1="-5.08" x2="5.08" y2="-7.62" width="0.254" layer="94" curve="180"/>
+<wire x1="5.08" y1="10.16" x2="10.16" y2="10.16" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-7.62" x2="5.08" y2="-10.16" width="0.254" layer="94" curve="180"/>
+<wire x1="5.08" y1="-10.16" x2="10.16" y2="-10.16" width="0.254" layer="94"/>
+<circle x="5.842" y="9.144" radius="0.254" width="0.254" layer="94"/>
+<wire x1="0" y1="10.16" x2="0" y2="-10.16" width="1.016" layer="94"/>
+<wire x1="2.54" y1="10.16" x2="2.54" y2="-10.16" width="1.016" layer="94"/>
+<pin name="1" x="-10.16" y="10.16" visible="pad" length="short"/>
+<pin name="2" x="-10.16" y="0" visible="pad" length="short"/>
+<pin name="3" x="-10.16" y="-10.16" visible="pad" length="short"/>
+<pin name="6" x="12.7" y="10.16" visible="pad" length="short" rot="R180"/>
+<pin name="4" x="12.7" y="-10.16" visible="pad" length="short" rot="R180"/>
+<wire x1="-7.62" y1="12.7" x2="-7.62" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-12.7" x2="10.16" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-12.7" x2="10.16" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="12.7" x2="10.16" y2="12.7" width="0.254" layer="94"/>
+<text x="-7.62" y="12.7" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.62" y="-15.24" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -2286,6 +2339,25 @@ Source: www.kingbright.com</description>
 <connect gate="G$1" pin="2" pad="2"/>
 <connect gate="G$1" pin="3" pad="3"/>
 <connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MU-78250" prefix="T">
+<gates>
+<gate name="G$1" symbol="HF-TRANSF" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="6-PIN-DIL">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="6" pad="6"/>
 </connects>
 <technologies>
 <technology name=""/>
