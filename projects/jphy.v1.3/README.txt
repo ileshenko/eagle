@@ -1,3 +1,5 @@
+Ver.1.3
+Use IPC-73511 libraries for R and C
 
 ver.1.2
 
