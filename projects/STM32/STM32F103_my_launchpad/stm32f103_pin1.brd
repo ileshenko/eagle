@@ -134,7 +134,7 @@ B12
 B10</text>
 <text x="35.56" y="9.525" size="1.27" layer="25" font="vector" ratio="10" distance="100">PB0 PB1
 PA6 PA7
-PA5 PA5
+PA4 PA5
 PA2 PA3
 PA0 PA1</text>
 <text x="7.62" y="24.765" size="1.27" layer="25" font="vector" ratio="10" distance="100">G A15
