@@ -20288,8 +20288,8 @@ rotated 45 deg.</description>
 <text x="358.14" y="228.6" size="1.778" layer="97">T1</text>
 <text x="358.14" y="223.52" size="1.778" layer="97">T2</text>
 <text x="358.14" y="218.44" size="1.778" layer="97">T3</text>
-<text x="373.38" y="182.88" size="1.778" layer="97">T4</text>
-<text x="373.38" y="177.8" size="1.778" layer="97">T5</text>
+<text x="373.38" y="182.88" size="1.778" layer="97">T5</text>
+<text x="373.38" y="177.8" size="1.778" layer="97">T4</text>
 <text x="358.14" y="162.56" size="1.778" layer="97">Led</text>
 <text x="358.14" y="182.88" size="1.778" layer="97">I2C_CLK</text>
 <text x="358.14" y="177.8" size="1.778" layer="97">I2C_DATA</text>

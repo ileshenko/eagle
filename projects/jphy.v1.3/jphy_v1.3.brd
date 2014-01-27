@@ -67,7 +67,7 @@
 <text x="27.94" y="10.16" size="0.8128" layer="25" font="vector" ratio="16" rot="R90">Vcc Rx Tx Gnd</text>
 <text x="22.86" y="21.59" size="1.778" layer="25">Sep 2013</text>
 <text x="22.86" y="12.7" size="1.4224" layer="26" font="vector" ratio="16" rot="MR0">JSERIAL v1.3</text>
-<text x="7.62" y="1.27" size="1.4224" layer="25" font="vector" ratio="13">Designed by Igor L.</text>
+<text x="7.62" y="1.27" size="1.4224" layer="25" font="vector" ratio="13">Designed by Igor Leshenko</text>
 <hole x="45.72" y="21.59" drill="3"/>
 </plain>
 <libraries>

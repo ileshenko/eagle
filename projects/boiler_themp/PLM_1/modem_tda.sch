@@ -51,7 +51,7 @@
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
 <layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
@@ -7332,7 +7332,10 @@ W = angled&lt;p&gt;
 <instance part="R4" gate="G$1" x="129.54" y="144.78"/>
 <instance part="R5" gate="G$1" x="144.78" y="157.48" rot="R90"/>
 <instance part="R7" gate="G$1" x="200.66" y="68.58" rot="R90"/>
-<instance part="R8" gate="G$1" x="121.92" y="139.7" rot="R90"/>
+<instance part="R8" gate="G$1" x="121.92" y="139.7" smashed="yes" rot="R90">
+<attribute name="NAME" x="124.46" y="136.144" size="1.778" layer="95"/>
+<attribute name="VALUE" x="124.46" y="133.858" size="1.778" layer="96"/>
+</instance>
 <instance part="C9" gate="G$1" x="48.26" y="129.54"/>
 <instance part="F1" gate="G$1" x="35.56" y="149.86"/>
 <instance part="R2" gate="G$1" x="78.74" y="149.86"/>
@@ -7345,7 +7348,10 @@ W = angled&lt;p&gt;
 <instance part="C4" gate="G$1" x="119.38" y="27.94" rot="R90"/>
 <instance part="C3" gate="G$1" x="83.82" y="60.96"/>
 <instance part="C5" gate="G$1" x="58.42" y="45.72"/>
-<instance part="D1" gate="G$1" x="96.52" y="78.74"/>
+<instance part="D1" gate="G$1" x="96.52" y="78.74" smashed="yes">
+<attribute name="NAME" x="91.186" y="79.375" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="91.186" y="77.089" size="1.778" layer="96" rot="R180"/>
+</instance>
 <instance part="SV1" gate="1" x="236.22" y="139.7" rot="R180"/>
 <instance part="P+1" gate="1" x="124.46" y="83.82"/>
 <instance part="GND1" gate="1" x="198.12" y="177.8"/>
@@ -7557,10 +7563,10 @@ W = angled&lt;p&gt;
 <net name="N$11" class="0">
 <segment>
 <pinref part="C6" gate="G$1" pin="1"/>
-<wire x1="106.68" y1="73.66" x2="114.3" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="114.3" y1="73.66" x2="114.3" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="73.66" x2="116.84" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="73.66" x2="116.84" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="TDA5051" pin="RXIN"/>
-<wire x1="114.3" y1="86.36" x2="134.62" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="86.36" x2="134.62" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+5V" class="0">
