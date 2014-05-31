@@ -19,4 +19,6 @@ seedstudio
 # on your computer.
 # comment the following line if you want to have your project file included.
 eagle.epf
-
+# The autorouter generates a report (*.pro) file which reports the percentage
+# of routed tracks.
+*.pro
