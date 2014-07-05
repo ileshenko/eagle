@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.3">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -15310,46 +15310,46 @@ Standard 1-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="LED1" library="jlab" deviceset="RGB_5MM" device=""/>
 <part name="R1" library="rcl" deviceset="R-EU_" device="R0805" value="470"/>
 <part name="R2" library="rcl" deviceset="R-EU_" device="0207/7" value="470"/>
-<part name="R3" library="rcl" deviceset="R-EU_" device="R0805" value="470"/>
-<part name="R4" library="rcl" deviceset="R-EU_" device="0207/7" value="470"/>
+<part name="R3" library="rcl" deviceset="R-EU_" device="R0805" value="1K"/>
+<part name="R4" library="rcl" deviceset="R-EU_" device="0207/7" value="1K"/>
 <part name="R5" library="rcl" deviceset="R-EU_" device="R0805" value="470"/>
 <part name="R6" library="rcl" deviceset="R-EU_" device="0207/7" value="470"/>
 <part name="P+1" library="supply1" deviceset="+3V3" device=""/>
 <part name="LED4" library="jlab" deviceset="RGB_5MM" device=""/>
 <part name="R7" library="rcl" deviceset="R-EU_" device="R0805" value="470"/>
 <part name="R8" library="rcl" deviceset="R-EU_" device="0207/7" value="470"/>
-<part name="R9" library="rcl" deviceset="R-EU_" device="R0805" value="470"/>
-<part name="R10" library="rcl" deviceset="R-EU_" device="0207/7" value="470"/>
+<part name="R9" library="rcl" deviceset="R-EU_" device="R0805" value="1K"/>
+<part name="R10" library="rcl" deviceset="R-EU_" device="0207/7" value="1K"/>
 <part name="R11" library="rcl" deviceset="R-EU_" device="R0805" value="470"/>
 <part name="R12" library="rcl" deviceset="R-EU_" device="0207/7" value="470"/>
 <part name="P+6" library="supply1" deviceset="+3V3" device=""/>
 <part name="LED5" library="jlab" deviceset="RGB_5MM" device=""/>
 <part name="R13" library="rcl" deviceset="R-EU_" device="R0805" value="470"/>
 <part name="R14" library="rcl" deviceset="R-EU_" device="0207/7" value="470"/>
-<part name="R17" library="rcl" deviceset="R-EU_" device="R0805" value="470"/>
-<part name="R18" library="rcl" deviceset="R-EU_" device="0207/7" value="470"/>
+<part name="R17" library="rcl" deviceset="R-EU_" device="R0805" value="1K"/>
+<part name="R18" library="rcl" deviceset="R-EU_" device="0207/7" value="1K"/>
 <part name="R19" library="rcl" deviceset="R-EU_" device="R0805" value="470"/>
 <part name="R20" library="rcl" deviceset="R-EU_" device="0207/7" value="470"/>
 <part name="P+9" library="supply1" deviceset="+3V3" device=""/>
 <part name="LED6" library="jlab" deviceset="RGB_5MM" device=""/>
 <part name="R21" library="rcl" deviceset="R-EU_" device="R0805" value="470"/>
 <part name="R23" library="rcl" deviceset="R-EU_" device="0207/7" value="470"/>
-<part name="R24" library="rcl" deviceset="R-EU_" device="R0805" value="470"/>
-<part name="R25" library="rcl" deviceset="R-EU_" device="0207/7" value="470"/>
+<part name="R24" library="rcl" deviceset="R-EU_" device="R0805" value="1K"/>
+<part name="R25" library="rcl" deviceset="R-EU_" device="0207/7" value="1K"/>
 <part name="R26" library="rcl" deviceset="R-EU_" device="R0805" value="470"/>
 <part name="R27" library="rcl" deviceset="R-EU_" device="0207/7" value="470"/>
 <part name="P+10" library="supply1" deviceset="+3V3" device=""/>
 <part name="LED7" library="jlab" deviceset="RGB_5MM" device=""/>
 <part name="R28" library="rcl" deviceset="R-EU_" device="R0805" value="470"/>
 <part name="R29" library="rcl" deviceset="R-EU_" device="0207/7" value="470"/>
-<part name="R30" library="rcl" deviceset="R-EU_" device="R0805" value="470"/>
-<part name="R31" library="rcl" deviceset="R-EU_" device="0207/7" value="470"/>
+<part name="R30" library="rcl" deviceset="R-EU_" device="R0805" value="1K"/>
+<part name="R31" library="rcl" deviceset="R-EU_" device="0207/7" value="1K"/>
 <part name="R32" library="rcl" deviceset="R-EU_" device="R0805" value="470"/>
 <part name="R33" library="rcl" deviceset="R-EU_" device="0207/7" value="470"/>
 <part name="P+11" library="supply1" deviceset="+3V3" device=""/>
 <part name="JP2" library="SparkFun-Connectors" deviceset="M01" device="PTH" value="RXD_5V"/>
-<part name="R34" library="rcl" deviceset="R-EU_" device="R0805" value="470"/>
-<part name="R35" library="rcl" deviceset="R-EU_" device="R0805" value="1K"/>
+<part name="R34" library="rcl" deviceset="R-EU_" device="R0805" value="4.7K"/>
+<part name="R35" library="rcl" deviceset="R-EU_" device="R0805" value="10K"/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="C1" library="rcl" deviceset="C-EU" device="C0805" value="0.47uF"/>
 <part name="C2" library="rcl" deviceset="C-EU" device="C0805" value="0.47uF"/>
