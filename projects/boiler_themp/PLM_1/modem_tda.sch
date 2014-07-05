@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.3">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -58,8 +58,6 @@
 <layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="100" name="Muster" color="7" fill="1" visible="no" active="no"/>
-<layer number="101" name="Patch_Top" color="12" fill="4" visible="yes" active="yes"/>
-<layer number="116" name="Patch_BOT" color="9" fill="4" visible="yes" active="yes"/>
 <layer number="151" name="HeatSink" color="14" fill="1" visible="no" active="no"/>
 <layer number="200" name="200bmp" color="1" fill="10" visible="no" active="no"/>
 <layer number="201" name="201bmp" color="2" fill="1" visible="no" active="no"/>
@@ -69,7 +67,6 @@
 <layer number="205" name="205bmp" color="6" fill="10" visible="no" active="no"/>
 <layer number="206" name="206bmp" color="7" fill="10" visible="no" active="no"/>
 <layer number="207" name="207bmp" color="15" fill="10" visible="no" active="no"/>
-<layer number="250" name="Descript" color="3" fill="1" visible="yes" active="yes"/>
 <layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
 <layer number="254" name="OrgLBR" color="13" fill="1" visible="no" active="no"/>
 </layers>
@@ -7311,6 +7308,8 @@ W = angled&lt;p&gt;
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="P+5" library="supply1" deviceset="+5V" device=""/>
+<part name="R9" library="ipc-7351-resistor" deviceset="RESISTOR_" device="0805" value="10K"/>
+<part name="P+6" library="supply1" deviceset="+5V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -7371,6 +7370,13 @@ W = angled&lt;p&gt;
 <instance part="GND9" gate="1" x="162.56" y="129.54"/>
 <instance part="GND10" gate="1" x="223.52" y="129.54"/>
 <instance part="P+5" gate="1" x="218.44" y="157.48"/>
+<instance part="R9" gate="G$1" x="175.26" y="99.06" smashed="yes" rot="R90">
+<attribute name="NAME" x="177.8" y="101.6" size="1.778" layer="95"/>
+<attribute name="VALUE" x="177.8" y="98.298" size="1.778" layer="96"/>
+</instance>
+<instance part="P+6" gate="1" x="175.26" y="111.76" smashed="yes">
+<attribute name="VALUE" x="175.26" y="111.76" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -7613,6 +7619,11 @@ W = angled&lt;p&gt;
 <wire x1="228.6" y1="147.32" x2="218.44" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="218.44" y1="147.32" x2="218.44" y2="154.94" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="R9" gate="G$1" pin="2"/>
+<pinref part="P+6" gate="1" pin="+5V"/>
+<wire x1="175.26" y1="104.14" x2="175.26" y2="109.22" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="N$12" class="0">
 <segment>
@@ -7674,10 +7685,14 @@ W = angled&lt;p&gt;
 <net name="N$14" class="0">
 <segment>
 <pinref part="IC1" gate="TDA5051" pin="DATAIN"/>
-<wire x1="167.64" y1="88.9" x2="187.96" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="88.9" x2="175.26" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="88.9" x2="187.96" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="187.96" y1="88.9" x2="187.96" y2="142.24" width="0.1524" layer="91"/>
 <pinref part="SV1" gate="1" pin="3"/>
 <wire x1="187.96" y1="142.24" x2="228.6" y2="142.24" width="0.1524" layer="91"/>
+<pinref part="R9" gate="G$1" pin="1"/>
+<wire x1="175.26" y1="93.98" x2="175.26" y2="88.9" width="0.1524" layer="91"/>
+<junction x="175.26" y="88.9"/>
 </segment>
 </net>
 <net name="N$15" class="0">
