@@ -1,0 +1,5 @@
+Project separated into https://github.com/ileshenko/ws_boiler_indicator
+use 
+git clone https://github.com/ileshenko/ws_boiler_indicator.git boiler_themp
+cd boiler_themp
+git branch eagle
